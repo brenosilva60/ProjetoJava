@@ -1,9 +1,10 @@
-package br.edu.br;
+package br.edu.up;
 
-import br.edu.br.controles.SistemaAcademia;
-import br.edu.br.modelos.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import br.edu.up.controles.SistemaAcademia;
+import br.edu.up.modelos.Aluno;
+import br.edu.up.modelos.Equipamento;
+import br.edu.up.modelos.Instrutor;
+import br.edu.up.modelos.Treino;
 
 import java.util.List;
 import java.util.Scanner;

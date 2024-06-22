@@ -1,11 +1,8 @@
-package br.edu.br.modelos;
+package br.edu.up.modelos;
 
 
 
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 public class AgendamentoEquipamento implements Avaliavel {
     private Aluno aluno;

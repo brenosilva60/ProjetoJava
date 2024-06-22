@@ -1,6 +1,4 @@
-package br.edu.br.modelos;
-
-import java.io.Serializable;
+package br.edu.up.modelos;
 
 public class Treino{
 

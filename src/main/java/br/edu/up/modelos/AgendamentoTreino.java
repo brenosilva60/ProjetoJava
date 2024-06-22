@@ -1,7 +1,6 @@
-package br.edu.br.modelos;
+package br.edu.up.modelos;
 
 
-import java.io.Serializable;
 import java.util.Date;
 
 public class AgendamentoTreino implements Avaliavel {

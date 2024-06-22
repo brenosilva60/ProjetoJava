@@ -1,7 +1,7 @@
-package br.edu.br.controles;
+package br.edu.up.controles;
 
 
-import br.edu.br.modelos.*;
+import br.edu.up.modelos.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

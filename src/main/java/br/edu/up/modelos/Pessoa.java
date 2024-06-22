@@ -1,6 +1,5 @@
-package br.edu.br.modelos;
+package br.edu.up.modelos;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
