@@ -67,11 +67,13 @@ public class EquipamentoController {
             if (equipamentos.get(i).getId() == id) {
                 equipamentos.set(i, equipamentoAlterado);
                 equipamentoDao.gravarArquivo();
+                logger.info("Equipamento alterado: " + equipamentos.get(i));
 
                 return equipamentos.get(i);
             }
         }
 
+        logger.error("FALHA ao altearar equipamento (id): " + equipamentoAlterado.toString());
         return null;
     }
 

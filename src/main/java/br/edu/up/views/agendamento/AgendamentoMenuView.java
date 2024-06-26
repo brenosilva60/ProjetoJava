@@ -39,6 +39,7 @@ public class AgendamentoMenuView {
             switch (opcao) {
                 case 1:
                     agendamentoCriacaoView.mostrar();
+                    agendamentoController = new AgendamentoController();
                     break;
                 case 2:
                     listar();
@@ -48,6 +49,7 @@ public class AgendamentoMenuView {
                     break;
                 case 4:
                     cancelar();
+                    agendamentoController = new AgendamentoController();
                     break;
                 case 5:
                     break;
@@ -61,9 +63,14 @@ public class AgendamentoMenuView {
     public void listar(){
         AgendamentoController agendamentoController = new AgendamentoController();
         int contador = 1;
+
         for(Agendamento agendamento : agendamentoController.getAgendamentos()){
             System.out.println(contador + "- " + agendamento.toString()+"\n");
             contador++;
+        }
+
+        if(contador == 1){
+            System.out.println("Não foi encontrado nenhum agendamento!");
         }
     }
 
@@ -77,53 +84,46 @@ public class AgendamentoMenuView {
             System.out.println("Nenhum aluno econtrado com esse id!");
         }else{
             AgendamentoController agendamentoController = new AgendamentoController();
-            System.out.println("Lista de agendamentos do Aluno " + aluno.getNome() + ":");
+
 
             List<Agendamento> listaDeAgendamentoAluno = new ArrayList<>();
             int contador = 1;
+            String agendamentos = "";
+
             for(Agendamento agendamento : agendamentoController.getAgendamentos()){
                 if(agendamento.getAluno().getId() == id){
-                    System.out.println(contador + "- " + agendamento.toString()+"\n");
+                    agendamentos += contador + "- " + agendamento.toString()+"\n";
                     listaDeAgendamentoAluno.add(agendamento);
                     contador++;
                 }
+            }
+
+            if(contador == 1){
+                System.out.println("Não foi encontrado nenhum agendamento com esse aluno!");
+            }else{
+                System.out.println("Lista de agendamentos do Aluno " + aluno.getNome() + ":");
+                System.out.println(agendamentos);
             }
         }
     }
 
     public void cancelar(){
-        List<Agendamento> listaDeAgendamentoAluno = new ArrayList<>();
-
-        System.out.println("Digite o id do aluno:");
+        System.out.println("Digite o id de qual agendamento deseja cancelar:");
         Integer id = scanner.nextInt();
-
-        Aluno aluno = alunoController.pesquisar(id);
-
-        if(aluno == null){
-            System.out.println("Nenhum aluno econtrado com esse id!");
-        }else{
-            AgendamentoController agendamentoController = new AgendamentoController();
-            System.out.println("Lista de agendamentos do Aluno " + aluno.getNome() + ":");
-
-
-            int contador = 1;
-            for(Agendamento agendamento : agendamentoController.getAgendamentos()){
-                if(agendamento.getAluno().getId() == id && agendamento.getDataDoTreino().isAfter(LocalDateTime.now())){
-                    System.out.println(contador + "- " + agendamento.toString()+"\n");
-                    listaDeAgendamentoAluno.add(agendamento);
-                    contador++;
-                }
-            }
-        }
-
-        System.out.println("Digite qual agendamento deseja cancelar:");
-        Integer opcao = scanner.nextInt();
         scanner.nextLine();
 
-        Agendamento agendamentoCancelar = listaDeAgendamentoAluno.get(opcao-1);
+        Agendamento agendamentoCancelar = agendamentoController.pesquisar(id);
 
-        agendamentoController.cancelarAgendamento(agendamentoCancelar.getId());
+        if(agendamentoCancelar != null){
+            if(agendamentoCancelar.getDataDoTreino().isAfter(LocalDateTime.now())){
+                agendamentoController.cancelarAgendamento(id);
 
-        System.out.println("Cancelado com sucesso!");
+                System.out.println("Cancelado com sucesso!");
+            }else{
+                System.out.println("Não é possivel cancelar um agendamento passado!");
+            }
+        }else{
+            System.out.println("Não foi encontrado nenhum agendamento com esse id!");
+        }
     }
 }

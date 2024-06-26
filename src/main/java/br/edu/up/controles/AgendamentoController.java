@@ -31,10 +31,6 @@ public class AgendamentoController {
             }
         }
     }
-    public int getUltimoId(){
-        return id-1;
-    }
-
     public List<Agendamento> getAgendamentos() {
         return agendamentos;
     }
@@ -51,10 +47,22 @@ public class AgendamentoController {
         if(agendamento.getDataDoTreino().isAfter(LocalDateTime.now())){
             agendamentos.add(agendamento);
             agendamentoDAO.gravarArquivo();
+            logger.info("Reserva agendada: " + agendamentos);
             return true;
         }
 
+        logger.error("Reserva não agendada: " + agendamentos);
         return false;
+    }
+
+    public Agendamento pesquisar(Integer id) {
+        for (Agendamento agendamento : agendamentos) {
+            if (agendamento.getId() == id) {
+               return agendamento;
+            }
+        }
+
+        return null;
     }
 
     public boolean cancelarAgendamento(int idAgendamento){
@@ -62,10 +70,12 @@ public class AgendamentoController {
             if(agendamento.getId() == idAgendamento){
                 agendamentos.remove(agendamento);
                 agendamentoDAO.gravarArquivo();
+                logger.info("Reserva cancelada: " + idAgendamento);
                 return true;
             }
         }
 
+        logger.info("Reserva não cancelada: " + idAgendamento);
         return false;
     }
 }

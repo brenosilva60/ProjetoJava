@@ -1,6 +1,4 @@
 package br.edu.up.modelos;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class Aluno extends Pessoa{
@@ -9,7 +7,8 @@ public class Aluno extends Pessoa{
         Mensal,
         Trimestral,
         Semestral,
-        Anual
+        Anual,
+        Diaria
     }
 
     public TipoDoPlano getTipoDoPlano() {

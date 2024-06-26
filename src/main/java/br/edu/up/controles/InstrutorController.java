@@ -56,6 +56,7 @@ public class InstrutorController {
             if (instrutores.get(i).getId() == id) {
                 instrutores.set(i, instrutorAlterado);
                 instrutorDAO.gravarArquivo();
+                logger.info("Instrutor alterado: " + instrutores.get(i));
 
                 return instrutores.get(i);
             }

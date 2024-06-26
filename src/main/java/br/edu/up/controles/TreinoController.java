@@ -65,6 +65,7 @@ public class TreinoController {
             if (treinos.get(i).getId() == id) {
                 treinos.set(i, treinoAlterado);
                 treinosDAO.gravarArquivo();
+                logger.info("Treino alterado: " + treinos.get(i));
 
                 return treinos.get(i);
             }

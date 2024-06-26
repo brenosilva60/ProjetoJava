@@ -35,17 +35,6 @@ public class AlunoController {
 
         return  alunoId++;
     }
-
-    public boolean isRepetido(String nome){
-        for(Aluno alunoVerificar : alunos){
-            if(alunoVerificar.getNome().equalsIgnoreCase(nome)){
-                return true;
-            }
-        }
-        return false;
-    }
-
-
     public List<Aluno> listar() {
         return new ArrayList<>(alunos);
     }
@@ -78,10 +67,13 @@ public class AlunoController {
             if (alunos.get(i).getId() == id) {
                 alunos.set(i, alunoAlterado);
                 alunoDAO.gravarArquivo();
+                logger.info("Aluno alterado: " + alunoAlterado.toString());
 
                 return alunos.get(i);
             }
         }
+
+        logger.error("Erro! Aluno não alterado: " + alunoAlterado.toString());
 
         return null;
     }
