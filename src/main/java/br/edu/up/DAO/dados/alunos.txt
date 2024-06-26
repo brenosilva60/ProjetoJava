@@ -1,0 +1,4 @@
+id;nome;tipoDoPlano;avaliacoes
+1;Kayc;Mensal;
+3;Breno;Anual;
+5;Gabriel;Semestral;

@@ -1,0 +1,6 @@
+id;nome;descricao
+1;Tríceps e bíceps;Trabalho focado nos músculos do tríceps e bíceps.
+2;Ombros e trapézio;Treino voltado para os músculos dos ombros e trapézio.
+3;Treino completo de pernas (todos os grupos musculares);Treino abrangente para todos os grupos musculares das pernas.
+4;Costas;Trabalho específico nos músculos das costas.
+5;Peitoral;Foco no desenvolvimento dos músculos do peitoral

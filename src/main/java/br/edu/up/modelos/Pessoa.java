@@ -16,6 +16,12 @@ public abstract class Pessoa implements Avaliavel{
         this.id = id;
     }
 
+    public Pessoa(String nome, int id, List<String> avaliacoes) {
+        this.nome = nome;
+        this.id = id;
+        setAvaliacoes(avaliacoes);
+    }
+
     public String getNome() {
         return nome;
     }
@@ -45,12 +51,27 @@ public abstract class Pessoa implements Avaliavel{
     }
 
     @Override
-    public void setAvaliacao(String avalicao) {
+    public void addAvaliacao(String avalicao) {
         avaliacoes.add(avalicao);
     }
 
     @Override
     public List<String> getAvaliacoes() {
         return avaliacoes;
+    }
+
+    public String getAvaliacoesString(){
+        String todasAvaliacoes = "";
+
+        for (int i = 0; i < avaliacoes.size(); i++) {
+
+            if(avaliacoes.size() > i+1){
+                todasAvaliacoes += avaliacoes.get(i) +", ";
+            }else{
+                todasAvaliacoes += avaliacoes.get(i);
+            }
+        }
+
+        return  todasAvaliacoes;
     }
 }

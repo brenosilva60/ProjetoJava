@@ -1,8 +1,9 @@
 package br.edu.up.modelos;
 
 public class Equipamento {
-    private String nome;
     private int id;
+    private String nome;
+
 
     public Equipamento(String nome) {
         this.nome = nome;
@@ -21,15 +22,23 @@ public class Equipamento {
         return id;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
 
     @Override
     public String toString() {
-        return "Equipamento[" +
+        return "Equipamento{" +
                 "nome='" + nome + '\'' +
                 ", id=" + id +
-                ']';
+                '}';
+    }
+
+    public String toTxt(){
+        return id + ";" + nome;
     }
 }

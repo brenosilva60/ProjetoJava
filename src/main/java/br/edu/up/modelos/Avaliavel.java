@@ -3,7 +3,7 @@ package br.edu.up.modelos;
 import java.util.List;
 
 public interface Avaliavel {
-    public void setAvaliacao(String avaliacao);
+    public void addAvaliacao(String avaliacao);
     public default List<String> getAvaliacoes(){
         return null;
     };

@@ -1,0 +1,56 @@
+2024-06-25 13:49:32.949 [main] INFO  br.edu.up.controles.AlunoController - Aluno adicionado: Aluno [nome=Thiago, id=1]
+2024-06-25 14:36:03.961 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Tríceps e bíceps', descricao='Trabalho focado nos músculos do tríceps e bíceps.', id=1]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Ombros e trapézio', descricao='Treino voltado para os músculos dos ombros e trapézio.', id=2]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Treino completo de pernas (todos os grupos musculares)', descricao='Treino abrangente para todos os grupos musculares das pernas.', id=3]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Costas', descricao='Trabalho específico nos músculos das costas.', id=4]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Peitoral', descricao='Foco no desenvolvimento dos músculos do peitoral.', id=5]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Tríceps e bíceps', descricao='Trabalho focado nos músculos do tríceps e bíceps.', id=6]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Ombros e trapézio', descricao='Treino voltado para os músculos dos ombros e trapézio.', id=7]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Treino completo de pernas (todos os grupos musculares)', descricao='Treino abrangente para todos os grupos musculares das pernas.', id=8]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Costas', descricao='Trabalho específico nos músculos das costas.', id=9]
+2024-06-25 14:36:03.964 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Peitoral', descricao='Foco no desenvolvimento dos músculos do peitoral.', id=10]
+2024-06-25 14:39:38.717 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Tríceps e bíceps', descricao='Trabalho focado nos músculos do tríceps e bíceps.', id=1]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Ombros e trapézio', descricao='Treino voltado para os músculos dos ombros e trapézio.', id=2]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Treino completo de pernas (todos os grupos musculares)', descricao='Treino abrangente para todos os grupos musculares das pernas.', id=3]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Costas', descricao='Trabalho específico nos músculos das costas.', id=4]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Peitoral', descricao='Foco no desenvolvimento dos músculos do peitoral.', id=5]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Tríceps e bíceps', descricao='Trabalho focado nos músculos do tríceps e bíceps.', id=6]
+2024-06-25 14:39:38.719 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Ombros e trapézio', descricao='Treino voltado para os músculos dos ombros e trapézio.', id=7]
+2024-06-25 14:39:38.720 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Treino completo de pernas (todos os grupos musculares)', descricao='Treino abrangente para todos os grupos musculares das pernas.', id=8]
+2024-06-25 14:39:38.720 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Costas', descricao='Trabalho específico nos músculos das costas.', id=9]
+2024-06-25 14:39:38.720 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Peitoral', descricao='Foco no desenvolvimento dos músculos do peitoral.', id=10]
+2024-06-25 14:45:15.852 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Tríceps e bíceps', descricao='Trabalho focado nos músculos do tríceps e bíceps.', id=1]
+2024-06-25 14:45:15.858 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Ombros e trapézio', descricao='Treino voltado para os músculos dos ombros e trapézio.', id=2]
+2024-06-25 14:45:15.859 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Treino completo de pernas (todos os grupos musculares)', descricao='Treino abrangente para todos os grupos musculares das pernas.', id=3]
+2024-06-25 14:45:15.859 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Costas', descricao='Trabalho específico nos músculos das costas.', id=4]
+2024-06-25 14:45:15.860 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='Peitoral', descricao='Foco no desenvolvimento dos músculos do peitoral.', id=5]
+2024-06-25 15:06:24.612 [main] INFO  br.edu.up.controles.EquipamentoController - Equipamento adicionado: Equipamento[nome='Escada Climbmill CM2000', id=1]
+2024-06-25 15:07:11.824 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=2000.0, email='teste@gmail.com', dataAdmissao=2024-06-25T15:07:11.816066400, nome='Teste', id=1, avaliacoes=[]}
+2024-06-25 15:13:25.364 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=2000.0, email='teste@gmail.com', dataAdmissao=2024-06-25T15:13:25.352848800, nome='Teste', id=1, avaliacoes=[]}
+2024-06-25 19:49:05.308 [main] INFO  br.edu.up.controles.AlunoController - Aluno adicionado: Aluno [nome=Joao, id=1]
+2024-06-25 19:50:12.278 [main] INFO  br.edu.up.controles.AlunoController - Aluno adicionado: Aluno [nome=Breno, id=3]
+2024-06-25 19:50:39.618 [main] INFO  br.edu.up.controles.AlunoController - Aluno removido: Aluno [nome=Joao, id=2]
+2024-06-25 19:51:22.794 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='teste', descricao='teste', id=5]
+2024-06-25 19:51:30.093 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='nada', descricao='nada', id=6]
+2024-06-25 19:52:07.300 [main] INFO  br.edu.up.controles.TreinoController - Treino removido: Treino[nome='nada', descricao='nada', id=6]
+2024-06-25 20:01:21.343 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='teste 3', descricao='teste 3', id=7]
+2024-06-25 20:01:32.040 [main] INFO  br.edu.up.controles.TreinoController - Treino removido: Treino[nome='teste 3', descricao='teste 3', id=7]
+2024-06-25 20:01:37.503 [main] INFO  br.edu.up.controles.TreinoController - Treino removido: Treino[nome='teste 2', descricao='teste 2', id=6]
+2024-06-25 20:01:51.749 [main] INFO  br.edu.up.controles.EquipamentoController - Equipamento adicionado: Equipamento{nome='teste', id=1}
+2024-06-25 20:03:17.748 [main] INFO  br.edu.up.controles.EquipamentoController - Equipamento adicionado: Equipamento{nome='teste 2', id=3}
+2024-06-25 20:03:48.355 [main] INFO  br.edu.up.controles.EquipamentoController - Equipamento removido: Equipamento{nome='teste', id=2}
+2024-06-25 20:04:06.827 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=4000.0, email='teste@gmail.com', dataAdmissao=2024-06-25T20:04:06.819122700, nome='teste', id=1, avaliacoes=[]}
+2024-06-25 20:06:51.721 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=5000.0, email='teste 3', dataAdmissao=2024-06-25T20:06:51.708015700, nome='teste 2', id=3, avaliacoes=[]}
+2024-06-25 20:07:01.789 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor removido: Instrutor{salario=5000.0, email='teste 3', dataAdmissao=2024-06-25T20:06:51.708015700, nome='teste 2', id=3, avaliacoes=[]}
+2024-06-25 20:07:04.133 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor removido: Instrutor{salario=4000.0, email='teste@gmail.com', dataAdmissao=2024-06-25T20:04:06.819122700, nome='teste', id=2, avaliacoes=[]}
+2024-06-25 20:07:13.527 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=500.0, email='teste', dataAdmissao=2024-06-25T20:07:13.526296300, nome='teste', id=4, avaliacoes=[]}
+2024-06-25 20:07:29.461 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor removido: Instrutor{salario=500.0, email='teste', dataAdmissao=2024-06-25T20:07:13.526296300, nome='teste', id=4, avaliacoes=[]}
+2024-06-25 20:07:50.637 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=5000.0, email='teste', dataAdmissao=2024-06-25T20:07:50.620934400, nome='teste', id=1, avaliacoes=[]}
+2024-06-25 20:09:33.262 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor removido: Instrutor{salario=2000.0, email='teste@gmail.com', dataAdmissao=2024-06-25T15:13:25.352848800, nome='Teste', id=1, avaliacoes=[]}
+2024-06-25 20:09:43.973 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor adicionado: Instrutor{salario=5000.0, email='teste 3', dataAdmissao=2024-06-25T20:09:43.973427, nome='teste 2', id=2, avaliacoes=[]}
+2024-06-25 20:10:56.113 [main] INFO  br.edu.up.controles.InstrutorController - Instrutor removido: Instrutor{salario=5000.0, email='teste', dataAdmissao=2024-06-25T20:07:50.620934400, nome='teste', id=1, avaliacoes=[]}
+2024-06-25 20:51:43.604 [main] INFO  br.edu.up.controles.AlunoController - Aluno adicionado: Aluno [nome=Jonas, id=4]
+2024-06-25 20:52:47.193 [main] INFO  br.edu.up.controles.AlunoController - Aluno adicionado: Aluno [nome=SeiLá, id=5]
+2024-06-25 20:55:29.010 [main] INFO  br.edu.up.controles.AlunoController - Aluno removido: Aluno [nome=Jonas, id=4, plano: Anual]
+2024-06-25 20:56:27.670 [main] INFO  br.edu.up.controles.TreinoController - Treino adicionado: Treino[nome='teste', descricao='teste', id=6]
+2024-06-25 20:56:45.558 [main] INFO  br.edu.up.controles.TreinoController - Treino removido: Treino[nome='teste', descricao='teste', id=6]

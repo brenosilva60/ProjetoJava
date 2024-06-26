@@ -11,6 +11,12 @@ public class Treino{
         this.descricao = descricao;
     }
 
+    public Treino(Integer id, String nome, String descricao) {
+        this.id = id;
+        this.nome = nome;
+        this.descricao = descricao;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -42,5 +48,9 @@ public class Treino{
                 ", descricao='" + descricao + '\'' +
                 ", id=" + id +
                 ']';
+    }
+
+    public String toTxt(){
+        return id + ";" + nome + ";" + descricao;
     }
 }
